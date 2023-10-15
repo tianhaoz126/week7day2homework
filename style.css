@@ -76,27 +76,41 @@
         font-size:20px;
         margin-top: 30px;
     }
-    section {
-        width: 100%;
-        background-color: #4288c3;
-    }
-    section #partners {
-        width: 1200px;
-        padding: 2em 0 2em 0;
-        margin: 0 auto;
-        text-align: center;
-    }
-    section #partners .partner {
-        display: inline-block;
-        margin: 0 0.75em;
-        padding: 1.3em 1.5em;
-        background-color: #fff;
-        border-radius: 50%;
-    }
-    section #partners .partner img {
-        width: 90px;
-        height: 90px;
-    }
+    /* ... other styles ... */
+
+/* Partners */
+section {
+    width: 100%;
+    background-color: #4288c3;
+    padding: 2em 0;
+}
+
+#partners {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.partner {
+    padding: 1.3em 0.75em; /* Adjusted padding to fit the new grid structure */
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 1em; /* Space between rows */
+}
+
+.partner img {
+    width: 90px;
+    height: 90px;
+}
+
+/* ... other styles ... */
+
     footer {
         width: 100%;
         height: 155px;
