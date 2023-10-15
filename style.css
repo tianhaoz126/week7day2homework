@@ -1,0 +1,382 @@
+    /*Header*/
+    header {
+        width: 100%;
+        min-height: 275px;
+        padding-top: 3em;
+    }
+    #home header {
+        background: no-repeat lightgray url(images/cliff_ocean.jpg);
+        background-size: 100% 400px;
+    }
+    #activities header {
+        background: no-repeat lightgray url(images/runfly.jpeg);
+        background-size: 1500px;
+    }
+    #contact header {
+        background: no-repeat lightgray url(images/cliff_rock.jpeg);
+        background-size: 1500px;
+    }
+    .main-header {
+        background-color: rgb(255, 255, 255, 0.8);
+        width: 700px;
+        margin: 2em auto 0 auto;
+        min-height: 100px;
+        height: 100px;
+    }
+    .main-header .logo img {
+        width: 100px;
+        height: 100px;
+        margin: 0 2em 0 0;
+        float: left;
+    }
+    /* Navigation */
+    .main-menu {
+        margin-left: 227px;
+        font-weight: 400;
+    }
+    .main-menu ul li {
+        list-style-type: none;
+        display: inline-block;
+        float: left;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-left: 1px solid rgba(202, 204, 202, 0.6);
+        line-height: 100px;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .main-menu ul li a {
+        text-decoration: none;
+        color: #888;
+    }
+    .main-menu ul li a:hover {
+        color: #9ed034;
+    }
+    .main-menu ul li.active {
+        background:#9ed034;
+        border:none;
+    }
+    .main-menu ul li.active a {
+        color: #fff;
+    }
+    /* Main */
+    main {
+        margin-left:40px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-right:40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main h2 {
+        font-size: 30px;
+        color:#9ed034;
+        margin-bottom: 40px;
+    }
+    main h3 {
+        font-size:20px;
+        margin-top: 30px;
+    }
+    section {
+        width: 100%;
+        background-color: #4288c3;
+    }
+    section #partners {
+        width: 1200px;
+        padding: 2em 0 2em 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section #partners .partner {
+        display: inline-block;
+        margin: 0 0.75em;
+        padding: 1.3em 1.5em;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    section #partners .partner img {
+        width: 90px;
+        height: 90px;
+    }
+    footer {
+        width: 100%;
+        height: 155px;
+        padding-bottom: 1em;
+        background-color: #ecfab8;
+    }
+    footer #nondisclaimer .copy {
+        padding: 3.5em 3.5em 3.5em 13em;
+        float:left;
+        font-size: 0.9em;
+    }
+    footer #nondisclaimer .social {
+        padding: 2.5em;
+        margin-right: 9.25em;
+        float: right;
+    }
+    footer #disclaimer {
+        clear:both;
+    }
+    footer #disclaimer {
+        font-size: 0.85em;
+        text-align:center
+    }
+    footer #nondisclaimer .social .fa {
+        padding: 15px;
+        font-size: 15px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0 4px;
+        border-radius: 50%;
+    }
+    footer #nondisclaimer .social .fa:hover {
+        opacity: 0.7;
+    }
+    footer #nondisclaimer .social .fa-facebook {
+        background: #3B5998;
+        color:white;
+    }
+    footer #nondisclaimer .social .fa-twitter {
+        background: #55ACEE;
+        color:white;
+    }
+    footer #nondisclaimer .social .fa-instagram {
+        background: #125688;
+        color:white;
+    }
+    table {
+        width: 1000px;
+        margin: 4em auto 0 auto;
+    }
+    caption {
+        background:#852B1B;
+        height: 40px;
+        color:#fff;
+        font-size: 1.3em;
+        font-weight:bold;
+        padding-top: 1em;
+
+    }
+    thead {
+        background: #BDE1FF;
+    }
+    tbody {
+        background:#EEFFE6;
+        text-align: center;
+    }
+    th,td {
+        width: 225px;
+        height: 75px;
+        vertical-align: middle;
+        border: solid 1px #852B1B;
+    }
+    th:first-child {
+        width: 125px;
+        height: 50px;
+        background: #4977D1;
+        color: #fff;
+    }
+    td:first-child {
+        font-weight: bold;
+        background: #BDE1FF;
+    }
+body#contact h1 {
+    color: #9ed034;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+body#contact .textbox label {
+    display: block;
+    font-size: 1rem;
+}
+body#contact .textbox input {
+    margin-bottom: 10px;
+}
+body#contact .commentbox label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+body#contact .commentbox textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+
+body#contact form .button input[type="submit"] {
+    /*background-color: #4977D1;*/
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 10px; 
+    margin-left: 285px;
+    font-weight: bold;
+}
+body#contact legend {
+    color: #4977D1;
+    font-weight: bold;
+    font-size: medium;
+    text-transform: uppercase;
+}
+body#contact form {
+    border: 2px solid #9ed034;
+    padding: 20px;
+    margin-left: 40px;
+}
+body#contact .contactinfo .phone span:first-child,
+body#contact .contactinfo .email span:first-child {
+    font-weight: bold;
+    margin-left: 60px;
+}
+body#contact form {
+    border: none;
+}
+body#contact fieldset {
+    border: 1px solid #9ed034;
+    padding: 20px;
+}
+
+body#contact legend {
+    color: #4977D1;
+    font-weight: bold;
+    padding: 0 10px;
+}
+body#contact .textbox, 
+body#contact .radios, 
+body#contact .commentbox, 
+body#contact .button {
+    padding-bottom: 20px;
+}
+body#contact form label {
+    font-weight: bold;
+    font-size: medium;
+}
+body#contact .textbox input[type="text"], 
+body#contact .textbox input[type="email"],
+body#contact .commentbox textarea {
+    width: 400px;
+}
+body#contact p {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+body#contact select{
+    width: 150px;
+}
+body#contact select option {
+    text-align: center;
+}
+body#cliffs h1 {
+    color: #9ed034;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+#cliffs header {
+    background: no-repeat lightgray url(images/forest_cliff.jpeg);
+    background-size: 1500px;
+}
+body#cliffs p {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+#cliffs_pic {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 420px); 
+    justify-content: center; /
+    gap: 10px;
+}
+.cliff {
+    padding: 10px;
+    width: 420px; 
+}
+.cliff img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+.pic_title {
+    background-color: darkred;
+    padding: 5px 10px;
+    width: 380px;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+body#activities h1 {
+    color: #9ed034;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+}
+body#activities p {
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+#timeofday {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#timeofday span {
+    color: #3a3a3a;
+}
+
+#clock {
+    color: #125688;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.randomcode {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+.randomcode input[type="text"] {
+    margin-right: -40px;  /* Use a negative margin to pull the code closer */
+}
+.randomcode #codes {
+    background-color:#cccccc;
+    padding: 8px 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#activities main #displaySelected{
+    visibility: hidden;
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid #9ed034;
+    padding: 0.75em;
+}
+#activities main #displaySelected #result, #activities main #displaySelected #sendinfo {
+    display: inline-block;
+    margin: 0;
+} 
+#activities main #result {
+    min-height: 50px;
+    width:  300px;
+    padding: 0;
+}
+#activities main #result h4 {
+    margin-bottom: 1em;
+    font-size: 1.15em;
+}
+#activities main #displaySelected #sendinfo input[type="email"] {
+    width: 200px;
+}
+.tdhighlight {
+    background-color: lightgreen;
+    color: white;
+}
+
